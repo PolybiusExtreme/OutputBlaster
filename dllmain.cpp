@@ -165,6 +165,7 @@ DWORD WINAPI OutputsLoop(LPVOID lpParam)
 		game = new H2Overdrive;
 		break;
 	case 0xfac8a714:
+	case 0x01a76797:
 		game = new Cars;
 		break;
 	case 0x8456EEC1:
